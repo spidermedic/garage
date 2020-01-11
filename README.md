@@ -14,9 +14,7 @@ The relay get its input from the Raspberry Pi GPIO pins and the output is
 connected to the physical door switch. Make sure you have connected the switch
 side to the 'normally open' outputs of the relay.
 
-This is the relay setup that I used, but any should work fine.
-
-(Not an affiliate link)
+This is the relay setup that I used, but any should work fine.(Not an affiliate link)
 
 https://amazon.com/gp/product/B00E0NTPP4/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
 
@@ -24,11 +22,9 @@ https://amazon.com/gp/product/B00E0NTPP4/ref=ppx_yo_dt_b_search_asin_title?ie=UT
 ### Magnetic Switches
 The magnet is attached to the garage door and the switch needs to be in a fixed
 position so that the two line up when the door is closed. The wires get
-connected to the 'NO' or 'normally open' terminals.
+connected to the 'NC' or 'normally closed' terminals so that it sends a signal to the pi once the door opens.
 
-Again any similar product should work as well.
-
-(Not an affiliate link)
+Again any similar product should work as well.(Not an affiliate link)
 
 https://amazon.com/gp/product/B076J5TQ7V/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
 
