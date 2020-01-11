@@ -1,0 +1,6 @@
+__pycache__
+flask
+flask_session
+startenv.bat
+.pylintrc
+

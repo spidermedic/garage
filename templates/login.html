@@ -1,0 +1,13 @@
+
+{% extends "layout.html" %}
+
+{% block main %}
+
+    <h1>Authorization Code</h1>
+ 
+    <form action="" method="post">
+        <input type="password" name="auth_key" value="{{ request.form.auth_key }}">
+        <input type="submit" value="Login">
+    </form>
+
+{% endblock %}

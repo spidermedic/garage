@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+
+{% block head %}
+    <meta http-equiv="refresh" content="30" />
+{% endblock %}
+
+{% block main %}
+
+    <table>
+        <tr>
+            <td style="text-align:center; font-size:2em;" colspan='2'>
+                Garage<br/>
+                {% if away == True %}
+                    🚀
+                {% else %}
+                    🏠
+                {% endif %}
+            </td>
+        </tr>
+        <tr>
+        <td>
+            <form action="/" method="post">
+                <!-- Formats the button based on the state of door A -->
+                {% if door_a == "open" %}
+                    <button name="door" value="A"><img src="/static/button_red_a.png" width=150 height=150></button>
+                {% else %}
+                    <button name="door" value="A"><img src="/static/button_grn_a.png" width=150 height=150></button>
+                {% endif %}
+            </form>
+        </td>
+        <td>
+            <form action="/" method="post">
+                <!-- Formats button based on the state of door B -->
+                {% if door_b == "open" %}
+                    <button name="door" value="B"><img src="/static/button_red_b.png" width=150 height=150></button>
+                {% else %}
+                    <button name="door" value="B"><img src="/static/button_grn_b.png" width=150 height=150></button>
+                {% endif %}
+            </form>
+        </td>
+        </tr>
+        <tr>
+        <td colspan='2'>
+            <p style="margin-left: 50px">
+            Last Event: {{ last_event }}
+            </p>
+        </td>
+        </tr>
+    </table>
+
+{% endblock %}
