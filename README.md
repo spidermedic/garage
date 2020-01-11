@@ -1,4 +1,4 @@
-## Garage Door System
+## GOSH (Garage Operating System for Home)
 This is a simple system running on a Raspberry Pi using Flask, that allows the
 user to operate and view the status of their gargage door(s). The program is
 currently set up for two doors, but the code can be easily adapted to as many or
