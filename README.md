@@ -1,12 +1,10 @@
 ## Garage Door System
-
 This is a simple system running on a Raspberry Pi using Flask, that allows the
 user to operate and view the status of their gargage door(s). The program is
 currently set up for two doors, but the code can be easily adapted to as many or
 as few as are required. 
 
 ## Requirements
-
 ### Raspberry Pi:
 I have been running this on a Pi Zero W without any issues
 
