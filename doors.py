@@ -37,7 +37,7 @@ def operate_door(door):
         sleep(15)
 
     # If the door is open, keep the switch on until it the position_sensor
-    # reads as closed or for a max of 15 seconds.
+    # reads it as closed or for a max of 15 seconds.
     else:
         GPIO.output(door_relay, 0)
         start = time()

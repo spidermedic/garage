@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 # Don't forget to define the environment varaibles!
 app.secret_key = os.environ['SECRET_KEY']
-garage_auth = os.environ['GARAGE_AUTH']
+garage_auth    = os.environ['GARAGE_AUTH']
 
 # Some basic authentication
 def login_required(f):

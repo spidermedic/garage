@@ -1,5 +1,4 @@
 Flask
-Flask-Session
 hashlib
 functools
 RPi.GPIO
